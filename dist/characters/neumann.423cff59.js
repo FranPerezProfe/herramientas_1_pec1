@@ -1,0 +1,1 @@
+let upButtom=document.getElementById("up_buttom");function scrollFunction(){document.body.scrollTop>150||document.documentElement.scrollTop>150?upButtom.style.display="block":upButtom.style.display="none"}function topFunction(){document.body.scrollTop=0,document.documentElement.scrollTop=0}window.onscroll=function(){scrollFunction()};
